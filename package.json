@@ -1,0 +1,22 @@
+{
+  "name": "cloudinarize",
+  "version": "1.0.0",
+  "description": "Allowing shorter image retrieval/ upload code with the help of cloudinary api",
+  "main": "cloudinarize.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified \" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/royleekiat/cloudinarize.git"
+  },
+  "keywords": [
+    "getAll"
+  ],
+  "author": "Roy Lee <roy.lee.2013@sis.smu.edu.sg>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/royleekiat/cloudinarize/issues"
+  },
+  "homepage": "https://github.com/royleekiat/cloudinarize#readme"
+}

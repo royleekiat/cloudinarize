@@ -1,7 +1,7 @@
 var cloudinary = require ('cloudinary');
 
 module.exports = {
-	function getAll(cloudName,apiKey,apiSecret){
+	getAll: function(cloudName,apiKey,apiSecret){
 		cloudinary.config({ 
 			cloud_name: cloudName, 
 			api_key: apiKey, 
