@@ -5,7 +5,7 @@ In your console/terminal
 
 In app.js/server.js/any file in nodejs application,
 
->var roylee = require ('cloudinarize');
+>var cloudinarize = require ('cloudinarize');
 >var imageArray = cloudinarize.getAll(cloud_name,api_key,api_secret);
 
 If parameters are correct, You will receive
@@ -16,4 +16,4 @@ else
 
  -An empty array
 
- 
+
