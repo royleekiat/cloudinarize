@@ -16,7 +16,7 @@ module.exports = {
 				}
 			} 
 		});
-		console.log("Image Array has " + imageArray.size() + " images");
+		console.log("Image Array has " + imageArray.length + " images");
 		return imageArray;
 	}
 }
