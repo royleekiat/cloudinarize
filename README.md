@@ -16,4 +16,7 @@ else
 
  -An empty array
 
+* "getAll" method currently returns a maximum of 10 images. To edit, set 
+
+> max_results parameter (Default=10. Maximum=500)
 
