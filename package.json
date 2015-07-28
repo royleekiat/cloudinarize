@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/royleekiat/cloudinarize/issues"
   },
-  "homepage": "https://github.com/royleekiat/cloudinarize#readme"
+  "homepage": "https://github.com/royleekiat/cloudinarize#readme",
+  "dependencies": {
+    "cloudinary": "^1.2.2"
+  }
 }
