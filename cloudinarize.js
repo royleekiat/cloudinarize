@@ -10,13 +10,15 @@ module.exports = {
 		var imageArray = [];
 
 		cloudinary.api.resources(function(result){
-			for(var imj in result){
-				if (typeof img.url !== "undefined"){
+			console.log(result);
+			for(imj in result){
+				if (typeof img !== "undefined"){
 					imageArray += imj.url;
 				}
 			} 
+			console.log("Image Array has " + imageArray.length + " images");
 		});
-		console.log("Image Array has " + imageArray.length + " images");
+		
 		return imageArray;
 	}
 }
