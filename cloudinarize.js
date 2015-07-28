@@ -15,7 +15,7 @@ module.exports = {
 			for(var i = 0; i < arrayLength; i++){
 				var img = result.resources[i];
 				if (typeof img.url !== "undefined"){
-					imageArray.push(imj.url);
+					imageArray.push(img.url);
 				}
 			} 
 			console.log("Image Array has " + imageArray.length + " images");
