@@ -10,8 +10,8 @@ module.exports = {
 		var imageArray = [];
 
 		cloudinary.api.resources(function(result){
-			console.log(result);
-			for(imj in result.resources){
+			console.log(result.resources.length);
+			for(var imj in result.resources){
 				if (typeof img.url !== "undefined"){
 					imageArray += imj.url;
 				}
