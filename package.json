@@ -1,6 +1,6 @@
 {
   "name": "cloudinarize",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Allowing shorter image retrieval/ upload code with the help of cloudinary api",
   "main": "cloudinarize.js",
   "scripts": {
