@@ -1,0 +1,45 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'version',
+1 verbose cli   '1.0.6' ]
+2 info using npm@2.10.1
+3 info using node@v0.12.4
+4 info git [ 'status', '--porcelain' ]
+5 verbose version.write data { name: 'cloudinarize',
+5 verbose version.write   version: '1.0.6',
+5 verbose version.write   description: 'Allowing shorter image retrieval/ upload code with the help of cloudinary api',
+5 verbose version.write   main: 'cloudinarize.js',
+5 verbose version.write   scripts: { test: 'echo "Error: no test specified " && exit 1' },
+5 verbose version.write   repository:
+5 verbose version.write    { type: 'git',
+5 verbose version.write      url: 'git+https://github.com/royleekiat/cloudinarize.git' },
+5 verbose version.write   keywords: [ 'getAll' ],
+5 verbose version.write   author: 'Roy Lee <roy.lee.2013@sis.smu.edu.sg>',
+5 verbose version.write   license: 'MIT',
+5 verbose version.write   bugs: { url: 'https://github.com/royleekiat/cloudinarize/issues' },
+5 verbose version.write   homepage: 'https://github.com/royleekiat/cloudinarize#readme',
+5 verbose version.write   devDependencies: { cloudinary: '^1.2.2' } } to package.json
+6 info git [ 'add', 'package.json' ]
+7 info git [ 'commit', '-m', '1.0.6' ]
+8 info git [ 'tag', 'v1.0.6', '-am', '1.0.6' ]
+9 verbose stack Error: Command failed: git -c core.longpaths=true tag v1.0.6 -am 1.0.6
+9 verbose stack fatal: tag 'v1.0.6' already exists
+9 verbose stack
+9 verbose stack     at ChildProcess.exithandler (child_process.js:751:12)
+9 verbose stack     at ChildProcess.emit (events.js:110:17)
+9 verbose stack     at maybeClose (child_process.js:1015:16)
+9 verbose stack     at Socket.<anonymous> (child_process.js:1183:11)
+9 verbose stack     at Socket.emit (events.js:107:17)
+9 verbose stack     at Pipe.close (net.js:485:12)
+10 verbose cwd C:\Users\leeroy.kiat\Documents\GitHub\cloudinarize
+11 error Windows_NT 6.1.7601
+12 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "version" "1.0.6"
+13 error node v0.12.4
+14 error npm  v2.10.1
+15 error code 128
+16 error Command failed: git -c core.longpaths=true tag v1.0.6 -am 1.0.6
+16 error fatal: tag 'v1.0.6' already exists
+17 error If you need help, you may report this error at:
+17 error     <https://github.com/npm/npm/issues>
+18 verbose exit [ 1, true ]
