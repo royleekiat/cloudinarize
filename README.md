@@ -20,3 +20,5 @@ else
 
 > max_results parameter (Default=10. Maximum=500)
 
+For a better understanding on how to build npm packages, visit https://royleekiat.wordpress.com/2015/07/29/how-to-create-and-publish-an-npm-module-for-nodejs-applications/
+
